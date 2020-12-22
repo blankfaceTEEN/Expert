@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UpdateController">
+   <children>
+      <PieChart fx:id="pie" prefHeight="200.0" prefWidth="400.0" title="Диаграмма" />
+      <Label fx:id="labelE" layoutX="14.0" layoutY="200.0" text="E = " />
+      <Label fx:id="resultE" layoutX="14.0" layoutY="217.0" prefHeight="41.0" prefWidth="327.0" text="Качество теста в рассматриваемом курсе 78% из 100%" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OpinionController">
+   <children>
+      <Label layoutX="148.0" layoutY="6.0" text="Ранги" />
+      <TextField fx:id="VAL1" editable="false" layoutX="14.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VAL2" editable="false" layoutX="64.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VAL3" editable="false" layoutX="114.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VAL4" editable="false" layoutX="164.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VAL5" editable="false" layoutX="214.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VAL6" editable="false" layoutX="264.0" layoutY="23.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="VALSUM" editable="false" layoutX="314.0" layoutY="23.0" prefHeight="25.0" prefWidth="73.0" />
+      <Label layoutX="332.0" layoutY="6.0" text="Сумма" />
+      <TextField fx:id="REL1" editable="false" layoutX="14.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REL2" editable="false" layoutX="64.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REL3" editable="false" layoutX="114.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REL4" editable="false" layoutX="164.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REL5" editable="false" layoutX="214.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REL6" editable="false" layoutX="264.0" layoutY="48.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="RELSUM" editable="false" layoutX="314.0" layoutY="48.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="REP1" editable="false" layoutX="14.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSM1" editable="false" layoutX="14.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REP2" editable="false" layoutX="64.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REP3" editable="false" layoutX="114.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REP4" editable="false" layoutX="164.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REP5" editable="false" layoutX="214.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REP6" editable="false" layoutX="264.0" layoutY="73.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="REPSUM" editable="false" layoutX="314.0" layoutY="73.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="KSM2" editable="false" layoutX="64.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSM3" editable="false" layoutX="114.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSM4" editable="false" layoutX="164.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSM5" editable="false" layoutX="214.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSM6" editable="false" layoutX="264.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="KSMSUM" editable="false" layoutX="314.0" layoutY="98.0" prefHeight="25.0" prefWidth="73.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="133.0" prefHeight="17.0" prefWidth="50.0" text="r_ср" textAlignment="CENTER" />
+      <TextField fx:id="textFieldr" editable="false" layoutX="64.0" layoutY="129.0" prefHeight="25.0" prefWidth="50.0" />
+      <Label layoutX="32.0" layoutY="160.0" text="V" />
+      <TextField fx:id="V1" editable="false" layoutX="14.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="V2" editable="false" layoutX="14.0" layoutY="202.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="V3" editable="false" layoutX="14.0" layoutY="227.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="V4" editable="false" layoutX="14.0" layoutY="252.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="V5" editable="false" layoutX="14.0" layoutY="277.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="V6" editable="false" layoutX="14.0" layoutY="302.0" prefHeight="25.0" prefWidth="50.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="160.0" text="T" textAlignment="CENTER" />
+      <TextField fx:id="T1" editable="false" layoutX="64.0" layoutY="177.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="T2" editable="false" layoutX="64.0" layoutY="202.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="T3" editable="false" layoutX="64.0" layoutY="227.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="T4" editable="false" layoutX="64.0" layoutY="252.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="T5" editable="false" layoutX="64.0" layoutY="277.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="T6" editable="false" layoutX="64.0" layoutY="302.0" prefHeight="25.0" prefWidth="50.0" />
+      <Label layoutX="125.0" layoutY="133.0" text="Tsum" />
+      <TextField fx:id="Tsum" editable="false" layoutX="165.0" layoutY="129.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="K" editable="false" layoutX="264.0" layoutY="129.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="236.0" layoutY="133.0" text="K" textAlignment="CENTER" />
+      <Label layoutX="125.0" layoutY="160.0" text="Хи^2" />
+      <TextField fx:id="hi" editable="false" layoutX="165.0" layoutY="156.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField layoutX="314.0" layoutY="156.0" prefHeight="17.0" prefWidth="73.0" text="7.8" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="226.0" layoutY="160.0" prefHeight="17.0" prefWidth="87.0" text="Хи^2 (табл)" />
+      <Label layoutX="138.0" layoutY="194.0" text="a" />
+      <TextField layoutX="165.0" layoutY="190.0" prefHeight="25.0" prefWidth="50.0" text="0.05" />
+      <TextField layoutX="165.0" layoutY="215.0" prefHeight="25.0" prefWidth="50.0" text="3" />
+      <Label layoutX="138.0" layoutY="219.0" prefHeight="17.0" prefWidth="7.0" text="f" />
+      <Label fx:id="result" layoutX="131.0" layoutY="244.0" prefHeight="91.0" prefWidth="259.0" text="Label" wrapText="true" />
+   </children>
+</AnchorPane>
